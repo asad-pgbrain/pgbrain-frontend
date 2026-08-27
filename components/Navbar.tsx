@@ -9,7 +9,9 @@ export default function Navbar() {
   return (
     <header className="bg-gray-900 border-b border-gray-800 p-4 flex justify-between items-center">
       <div className="flex items-center gap-6">
-        <h1 className="text-cyan-400 text-xl font-bold">🧠 PgBrain</h1>
+        <Link href="/" className="text-cyan-400 text-xl font-bold">
+          🧠 PgBrain
+        </Link>
         <nav className="hidden md:flex gap-4">
           <Link href="/about" className="text-gray-300 hover:text-white text-sm transition">
             About
